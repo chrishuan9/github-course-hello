@@ -26,6 +26,6 @@ jobs:
         with:
           fail-on-severity: moderate
           # Deny craptastic licenses
-          deny-licenses: LGPL-1.0, BSD-2-Clause
+          deny-licenses: GPL-1.0-or-later, BSD-2-Clause
           comment-summary-in-pr: always
         
